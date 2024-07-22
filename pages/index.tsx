@@ -14,7 +14,7 @@ function Home () {
   return (
    <Layout>
        <section className='relative flex flex-col bg-cover bg-center bg-yellow-700' style={{ backgroundImage: `url(${HeroContainer.src})` }}>
-        <div className='relative bg-yellow-700 z-10 pt-5 mx-auto max-w-7xl bg-opacity-75  p-6 rounded-lg text-white flex flex-col md:w-full'>
+        <div className='relative bg-yellow-700 z-10 pt-5 mx-auto max-w-8xl bg-opacity-75  p-6 rounded-lg text-white flex flex-col md:w-full'>
           <div className='max-w-2xl py-20 px-4 flex flex-col gap-6'>
             <h1 className='text-2xl font-bold md:text-5xl'>GET YOUR FASHIONABLE DRESSES HERE AT A DISCOUNTED PRICE</h1>
             <p className='text-xl text-gray-200 md:text-3xl'>Your No 1 fashion online store is here at your service.</p>
