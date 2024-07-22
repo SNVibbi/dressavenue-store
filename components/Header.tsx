@@ -29,8 +29,9 @@ function Header() {
             <div className='flex px-3  items-center space-x-4 md:text-3xl md:px-7 md:space-x-8'>
                 <button className='text-2xl md:text-3xl'><CiSearch /></button>
                 <Link href="/cart">
-                   <button className='relative text-2xl md:text-3xl'>
+                   <button className='relative text-2xl flex items-center space-x-1 md:text-3xl'>
                         <BsCartDash />
+                        <p className='hidden md:block'>Cart</p>
                         {}
                     </button>
                 </Link>
